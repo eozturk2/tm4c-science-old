@@ -1,0 +1,115 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/include",
+                "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/src",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Servo",
+                "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/.pio/libdeps/lptm4c123gh6pm/StepperDriver/src",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/system",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/system/inc",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/system/driverlib",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/cores/tivac",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/variants/EK-TM4C123GXL",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostEuropeETSI",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostEuropeETSI/utility",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostUSAFCC",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostUSAFCC/utility",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Adafruit_TMP006",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Adafruit_TMP007",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/CogLCD",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/EEPROM",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/EduBPMKII_Screen",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Ethernet",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Ethernet/utility",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/LCD_SharpBoosterPack_SPI",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/M2XStreamClient",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/MQTTClient",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OPT3001",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OneMsTaskTimer",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OneWire",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/PubNub",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/PubSubClient",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/SPI",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Temboo",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Temboo/utility",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/WiFi",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/WiFi/utility",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Wire",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/aJson",
+                "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/aJson/utility",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/include",
+                    "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/src",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Servo",
+                    "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/.pio/libdeps/lptm4c123gh6pm/StepperDriver/src",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/system",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/system/inc",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/system/driverlib",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/cores/tivac",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/variants/EK-TM4C123GXL",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostEuropeETSI",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostEuropeETSI/utility",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostUSAFCC",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/AIR430BoostUSAFCC/utility",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Adafruit_TMP006",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Adafruit_TMP007",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/CogLCD",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/EEPROM",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/EduBPMKII_Screen",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Ethernet",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Ethernet/utility",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/LCD_SharpBoosterPack_SPI",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/M2XStreamClient",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/MQTTClient",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OPT3001",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OneMsTaskTimer",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/OneWire",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/PubNub",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/PubSubClient",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/SPI",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Temboo",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Temboo/utility",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/WiFi",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/WiFi/utility",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/Wire",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/aJson",
+                    "C:/Users/Eren/.platformio/packages/framework-energiativa/libraries/aJson/utility",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=80000000L",
+                "PLATFORMIO=60106",
+                "ENERGIA_ARCH_TIVAC",
+                "ENERGIA_EK_TM4C123GXL",
+                "ARDUINO=10805",
+                "ENERGIA=10002",
+                "printf=iprintf",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/Eren/.platformio/packages/toolchain-gccarmnoneeabi@1.40804.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16",
+                "-mabi=aapcs",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

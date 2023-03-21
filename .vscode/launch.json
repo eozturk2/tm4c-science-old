@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/.pio/build/lptm4c123gh6pm/firmware.elf",
+            "projectEnvName": "lptm4c123gh6pm",
+            "toolchainBinDir": "C:/Users/Eren/.platformio/packages/toolchain-gccarmnoneeabi@1.40804.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Eren/.platformio/platforms/titiva/misc/svd/TM4C123GH6PM.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/.pio/build/lptm4c123gh6pm/firmware.elf",
+            "projectEnvName": "lptm4c123gh6pm",
+            "toolchainBinDir": "C:/Users/Eren/.platformio/packages/toolchain-gccarmnoneeabi@1.40804.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Eren/.platformio/platforms/titiva/misc/svd/TM4C123GH6PM.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/Eren/Documents/PlatformIO/Projects/science_box_tm4c/.pio/build/lptm4c123gh6pm/firmware.elf",
+            "projectEnvName": "lptm4c123gh6pm",
+            "toolchainBinDir": "C:/Users/Eren/.platformio/packages/toolchain-gccarmnoneeabi@1.40804.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Eren/.platformio/platforms/titiva/misc/svd/TM4C123GH6PM.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
